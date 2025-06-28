@@ -1,0 +1,2 @@
+user2, 104240035@student.vgu.edu.vn, $2b$12$o6v962srLuoUZwYoLKvS1.TffOKOjzRoePheg55UjRKILbkfSd.FS, admin
+user1, minhluong10062006@gmail.com, $2b$12$vohtSPXWDtG/PHzOeQThz.w.llWA8zjcU5bAs6xkvAKU5CzSGYNSO, user

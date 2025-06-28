@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Basic -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <!-- Site Metas -->
+    <link rel="icon" href="../../static/images/favicon.png" type="image/gif" />
+    <title>Set a new password</title>
+  
+    <!-- bootstrap core css -->
+    <link rel="stylesheet" type="text/css" href="../../static/style/bootstrap.css" />
+    <!-- font awesome style -->
+    <link href="../../static/style/font-awesome.min.css" rel="stylesheet" />
+    <!-- Custom styles for this template -->
+    <link href="../../static/style/style.css" rel="stylesheet" />
+    <!-- responsive style -->
+    <link href="../../static/style/responsive.css" rel="stylesheet" />
+    <!-- login style -->
+    <link rel="stylesheet" type="text/css" href="../../static/style/login.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <!-- header section -->
+    <header class="header_section innerpage_header">
+        <div class="container-fluid">
+          <nav class="navbar navbar-expand-lg custom_nav-container">
+            <a class="navbar-brand" href="">
+              <span>
+                Set a new password
+              </span>
+            </a>
+          </nav>
+        </div>
+    </header>
+      <!-- end header section -->
+        <!-- about section -->
+        <section class="about_section layout_padding">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="img-box">
+                    <img src="../../static/images/about-img.jpg" alt="">
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="detail-box">
+                    <div class="heading_container">
+                      <h2>
+                        Set a new password
+                      </h2>
+                    <form method="POST" class="form">
+                      <div>
+                          <br>
+                          <label for="new_password">New password:</label>
+                          <input type="password" name="password" id="password" required>
+                      </div>
+                      <div>
+                          <label for="confirm_password">Confirm Password:</label>
+                          <input type="password" name="confirm_password" id="confirm_password" required>
+                      </div>
+                          <button type="submit" id="but2"><b>Reset password</b></button>
+                    </form>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+    <script>
+        const members = [
+          { name: "Luc Gia Nghi Anh", id: "104240328", img: "../../static/images/p1.jpg" },
+          { name: "Luong Nguyen Gia Minh", id: "104240035", img: "../../static/images/p2.0.jpg" },
+          { name: "Nguyen Tran Khang", id: "104240009", img: "../../static/images/p2.1.jpg" },
+          { name: "Ngo Duc Anh", id: "104240148", img: "../../static/images/p2.2.jpg" },
+          { name: "Tran Dang Tri", id: "104240185", img: "../../static/images/p2.3.jpg" },
+          { name: "Tran Tri Khiem", id: "104240559", img: "../../static/images/p2.4.jpg" },
+          { name: "Tran Huu Duy Hoang", id: "104240552", img: "../../static/images/p2.5.jpg" }
+        ];
+    
+        let currentIndex = 0;
+    
+        function updateCard() {
+          document.getElementById('memberImage').src = members[currentIndex].img;
+          document.getElementById('memberName').innerText = members[currentIndex].name;
+          document.getElementById('memberID').innerText = members[currentIndex].id;
+        }
+    
+        function nextMember() {
+          currentIndex = (currentIndex + 1) % members.length;
+          updateCard();
+        }
+    
+        setInterval(nextMember, 3000);
+      </script>
+    
+      <!-- jQery -->
+      <script src="../../static/scripts/jquery-3.4.1.min.js"></script>
+      <!-- bootstrap js -->
+      <script src="../../static/scripts/bootstrap.js"></script>
+      <!-- custom js -->
+      <script src="../../static/scripts/custom.js"></script>
+</body>
+</html>
