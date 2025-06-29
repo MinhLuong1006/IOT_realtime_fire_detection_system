@@ -129,5 +129,10 @@ IOT Real-time Fire Detection system/
     
 -   `Arduino/`: Contains Arduino sketches for ESP32 devices.
     
+## 👨‍💻 Project Team
 
+- Minh Luong — Team Leader, Firmware Developer, Backend Web Developer
+- Anh Ngo - Backend Web Developer, Finance Manager
+- Anh Luc — Frontend Web Developer
+- Khang Nguyen — Frontend Web Developer
 
