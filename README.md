@@ -128,7 +128,11 @@ IOT Real-time Fire Detection system/
 -   `alarm.mp3`: Audio alert file.
     
 -   `Arduino/`: Contains Arduino sketches for ESP32 devices.
-    
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 ## 👨‍💻 Project Team
 
 - Minh Luong — Team Leader, Firmware Developer, Backend Web Developer, System Integration
