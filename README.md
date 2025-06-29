@@ -131,8 +131,8 @@ IOT Real-time Fire Detection system/
     
 ## 👨‍💻 Project Team
 
-- Minh Luong — Team Leader, Firmware Developer, Backend Web Developer
-- Anh Ngo - Backend Web Developer, Finance Manager
-- Anh Luc — Frontend Web Developer
+- Minh Luong — Team Leader, Firmware Developer, Backend Web Developer, System Integration
+- Anh Ngo — Backend Web Developer, Finance & Procurement Manager
+- Anh Luc — Frontend Web Developer, UI/UX designer
 - Khang Nguyen — Frontend Web Developer
 
