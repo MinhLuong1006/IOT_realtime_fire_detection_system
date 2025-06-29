@@ -12,7 +12,7 @@
 The IoT Real-time Fire Detection System is a comprehensive Internet of Things solution designed for automated fire detection and environmental monitoring. This system integrates ESP32-based sensor networks with a Flask web application to provide continuous monitoring, real-time data visualization, and immediate alert notifications for fire detection scenarios.
 
 ![image](https://github.com/user-attachments/assets/294412ff-d81c-458c-b2da-31d00574c1c5)
-🎥 **[Watch the Demo Video](https://www.youtube.com/watch?v=VWgE9z4TkbM&t=32s)**  
+[![Demo Video](https://img.youtube.com/vi/VWgE9z4TkbM/0.jpg)](https://www.youtube.com/watch?v=VWgE9z4TkbM) 
 
 ## 🔄 How It Works
 
