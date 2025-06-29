@@ -1,12 +1,27 @@
-# IoT Real-time Fire Detection Project
+# IoT Real-time Fire Detection Project & Alert System using ESP32 & Flask
+
+![Python](https://img.shields.io/badge/Python-3.9-blue)
+![Flask](https://img.shields.io/badge/Flask-2.0-green)
+![Firebase](https://img.shields.io/badge/Firebase-Realtime%20DB-orange)
+![IoT](https://img.shields.io/badge/IoT-ESP32-lightgrey)
+![Platform](https://img.shields.io/badge/Platform-Arduino-blue)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
 ## Overview
 
 The IoT Real-time Fire Detection System is a comprehensive Internet of Things solution designed for automated fire detection and environmental monitoring. This system integrates ESP32-based sensor networks with a Flask web application to provide continuous monitoring, real-time data visualization, and immediate alert notifications for fire detection scenarios.
 
 ![image](https://github.com/user-attachments/assets/294412ff-d81c-458c-b2da-31d00574c1c5)
-Demo video: https://www.youtube.com/watch?v=VWgE9z4TkbM&t=32s
+🎥 **[Watch the Demo Video](https://www.youtube.com/watch?v=VWgE9z4TkbM&t=32s)**  
 
+## 🔄 How It Works
+
+1. **Sensors** (gas, flame, temperature) send data to ESP32.
+2. **ESP32** sends sensor readings to **Firebase** over Wi-Fi.
+3. **Flask backend** fetches data from Firebase in real-time.
+4. **Web interface** visualizes sensor data and triggers alerts.
+5. Users can **login**, monitor rooms, and **receive alerts** via sound/email.
+   
 ## Features
 
 -   **User Authentication**: Secure login system to manage user access.
