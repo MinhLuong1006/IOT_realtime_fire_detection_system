@@ -1,5 +1,7 @@
 # IoT Real-time Fire Detection Project & Alert System using ESP32 & Flask
 
+![Team Project](https://img.shields.io/badge/Team%20Project-Yes-blueviolet)
+![Deployment](https://img.shields.io/badge/Deployment-Localhost-success)
 ![Python](https://img.shields.io/badge/Python-3.9-blue)
 ![Flask](https://img.shields.io/badge/Flask-2.0-green)
 ![Firebase](https://img.shields.io/badge/Firebase-Realtime%20DB-orange)
